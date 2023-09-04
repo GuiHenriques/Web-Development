@@ -1,0 +1,47 @@
+/* Estilo global da página */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 2%;
+}
+
+/* Estilo para o título principal */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para parágrafos */
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Estilo para links */
+li a {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+li a:hover {
+    color: #3ba7ff;
+}
